@@ -1,7 +1,6 @@
 terraform {
   backend "remote" {
     organization = "infrastructure-pipelines-workshop"
-"
 
     workspaces {
       name = "rob-j-consul"
